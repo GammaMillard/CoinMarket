@@ -1,8 +1,11 @@
 import NavBar from '@/components/UserInfo'
 import './globals.css'
-import { Montserrat } from 'next/font/google'
+import { Outfit } from 'next/font/google'
 
-
+const outfit = Outfit( {
+  weight: ['400', '500', '600', '700', '800'],
+  subsets: ['latin']
+})
 
 
 export const metadata = {
@@ -13,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className=''>
+      <body className='font-outfit'>
        
         {children}
         </body>
