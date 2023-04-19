@@ -21,13 +21,13 @@ const CoinSelection = () => {
             <div className='top-holder flex flex-col gap-5'>
                 <div className='flex justify-between items-center'>
                     <p>TOP COSTUMERS</p>
-                    <div className="threeDots flex gap-1">
+                    <div className="flex gap-1">
                         <div className="w-2 h-2 bg-gray-700 rounded-full"></div>
                         <div className="w-2 h-2 bg-gray-700 rounded-full"></div>
                         <div className="w-2 h-2 bg-gray-700 rounded-full"></div>
                     </div>
                 </div>
-                <div className="list flex flex-col gap-6 overflow-scroll">
+                <div className="flex flex-col h-96 gap-6 overflow-auto scrollbar-hide">
 
                     <Customers />
                     <Customers />
@@ -44,6 +44,10 @@ const CoinSelection = () => {
                     <Customers />
                     <Customers />
                     <Customers />
+                    <div className='flex items-center gap-3 ' >
+                        <div className="bg-blue-700 w-12 h-12 rounded-full"></div>
+                        <p>Ronald Richards</p>
+                    </div>
 
 
 
