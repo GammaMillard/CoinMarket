@@ -4,7 +4,7 @@ import Search from './Search'
 
 const CoinSelection = () => {
     return (
-        <div className='w-[400px] h-screen overflow-hidden text-black border border-blue-400 flex flex-col py-4 pl-4 pr-8 gap-3'>
+        <div className='w-[400px] h-screen overflow-hidden text-black border border-grayBorder flex flex-col py-4 pl-4 pr-8 gap-3'>
             <div className='flex mb-10'>
                 <div className="menu">
                     <p>asdasd</p>

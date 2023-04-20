@@ -14,6 +14,9 @@ module.exports = {
       },
       fontFamily : {
         'outfit' : 'Outfit, sans-serif',
+      },
+      colors: {
+        grayBorder: 'hsla(186, 0%, 50%, 0.46)' 
       }
     },
   },

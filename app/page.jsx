@@ -20,9 +20,9 @@ export default async function Home() {
 				<CoinSelection />
 				<section className='w-full'>
 					<UserInfo />
-					<div className="data-holder border border-green-300 p-4">
-						<div className="actualdata w-full h-full border border-pink-400 flex flex-wrap gap-7" >
-							<div className='w-52 h-32 border border-blue-700 flex flex-col'>
+					<div className="data-holder border border-grayBorder p-4">
+						<div className="actualdata w-full h-full border bordergrayBorderborder-grayBorder flex flex-wrap gap-7" >
+							<div className='w-52 h-32 border bordergrayBorderborder-grayBorder flex flex-col'>
 								<div className="flex justify-between p-2">
 									<p>NAME</p>
 									<div className='flex gap-2'>
@@ -32,7 +32,7 @@ export default async function Home() {
 								</div>
 								<div className=" bg-black grow"></div>
 							</div>
-							<div className='w-52 h-32 border border-red-700 flex flex-col'>
+							<div className='w-52 h-32 border bordegrayBorderborder-grayBorder flex flex-col'>
 								<div className="names">
 									<p>NAME</p>
 									<div className='date-range'></div>
@@ -40,28 +40,28 @@ export default async function Home() {
 								</div>
 								<div className=" bg-black grow"></div>
 							</div>
-							<div className='w-52 h-32 border border-yellow-700'>
+							<div draggable className='w-52 h-32 border border-ygrayBorderborder-grayBorder'>
 								<div className="names">
 									<p>NAME</p>
 									<div className='date-range'></div>
 									<div className='drag-icon'></div>
 								</div>
 							</div>
-							<div className='w-52 h-32 border border-orange-700'>
+							<div className='w-52 h-32 border  border-grayBorder'>
+								<div className="names">
+									<p>Millard</p>
+									<div className='date-range'></div>
+									<div className='drag-icon'></div>
+								</div>
+							</div>
+							<div className='w-52 h-32 border border-pgrayBorderborder-grayBorder'>
 								<div className="names">
 									<p>NAME</p>
 									<div className='date-range'></div>
 									<div className='drag-icon'></div>
 								</div>
 							</div>
-							<div className='w-52 h-32 border border-purple-700'>
-								<div className="names">
-									<p>NAME</p>
-									<div className='date-range'></div>
-									<div className='drag-icon'></div>
-								</div>
-							</div>
-							<div className='w-52 h-32 border border-green-700'>
+							<div className='w-52 h-32 border border-grayBorder'>
 								<div className="names">
 									<p>NAME</p>
 									<div className='date-range'></div>
